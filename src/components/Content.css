@@ -1,0 +1,12 @@
+.content {
+    /* width: calc(100vw - 72px);
+    height: calc(100vh - 57px); */
+    /* margin-top: -1rem; */
+    display: flex;
+    width: 100%;
+    height: calc(100% - 58px);
+    background-color: #F9F9F9;
+    overflow-y: auto;
+    /* overflow-x: auto; */
+    /* border-top: 1px solid #E5E5E5; */
+}

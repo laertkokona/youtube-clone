@@ -1,0 +1,135 @@
+.sidebar.open {
+    overflow: hidden;
+    width: 225px;
+    /* border-right: 1px solid lightgray; */
+    /* border-right: 1px solid #E5E5E5; */
+    /* background-color: #f8f8f8; */
+    /* margin-top: -1rem; */
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 56px);
+    z-index: 50;
+    overflow-y: auto;
+    overflow-x: hidden;
+    animation: fadeIn 5s;
+    padding-bottom: 20px;
+    /* transition:all 1s; */
+    /* background-color: lightgrey; */
+}
+
+.sidebar {
+    overflow: hidden;
+    width: 72px;
+    /* border-right: 1px solid lightgray; */
+    /* border-right: 1px solid #E5E5E5; */
+    /* background-color: #f8f8f8; */
+    /* margin-top: -1rem; */
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 56px);
+    z-index: 50;
+    overflow-y: auto;
+    overflow-x: hidden;
+    animation: fadeIn 5s;
+    padding-bottom: 20px;
+    /* background-color: lightgrey; */
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.notShow {
+    display: none;
+}
+
+.sidebar_button_logo.open {
+    /* border: none; */
+    /* background-color: transparent; */
+    padding: 16px 0 7px;
+    /* display: flex; */
+    flex-direction: row;
+    /* transition:all 1s; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.logo.open {
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    animation: fade1 1s linear;
+    /* transition:all 1s; */
+}
+
+.logo {
+    animation: fade2 1s linear;
+}
+
+/* @keyframes fade1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+} */
+
+.sidebar_button_logo {
+    border: none;
+    /* border-bottom: 1px solid lightgray; */
+    background-color: transparent;
+    padding: 16px 0 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* transition:all 1s; */
+}
+
+.sidebar_button_logo:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sidebar_button_logo_label.open {
+    display: flex;
+    width: 65%;
+    justify-content: flex-start;
+    align-items: center;
+    /* max-width: 100%;
+    display: block;
+    max-height: 1.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    font-size: .9rem;
+    /* font-weight: 400;
+    line-height: 1.4rem; */
+    /* transition:all 1s; */
+}
+
+.sidebar_button_logo_label {
+    /* max-width: 100%;
+    display: block;
+    max-height: 1.4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    font-size: .7rem;
+    /* font-weight: 400;
+    line-height: 1.4rem; */
+    /* transition:all 1s; */
+}
