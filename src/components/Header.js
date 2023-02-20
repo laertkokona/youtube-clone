@@ -43,8 +43,6 @@ const Header = () => {
     setSettings(false)
   };
 
-  console.log({ search, anchorEl });
-
   return (
     <div className="header">
       <div className="header_left" onClick={() => setSidebar(!sidebar)}>
