@@ -1,7 +1,6 @@
-import { Chip, Radio, RadioGroup } from "@mui/material";
+import { Chip } from "@mui/material";
 import React, { useRef } from "react";
 import "./Chips.css";
-import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 import { useDraggable } from "react-use-draggable-scroll";
 
 const Chips = () => {
@@ -41,7 +40,7 @@ const Chips = () => {
       {/* <RadioGroup row className="radio-chips"> */}
       <div className="chips-container" {...events} ref={ref}>
         {chips.map((chip) => {
-          const checked = selected === chip;
+          // const checked = selected === chip;
           return (
             <Chip
               className="chip"

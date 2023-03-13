@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 export const usePersistedState = (defaultValue, key) => {
   const value = JSON.parse(localStorage.getItem(key));

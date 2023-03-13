@@ -43,7 +43,7 @@ const Sidebar = () => {
   const ref = useRef();
   const { events } = useDraggable(ref);
   const {
-    sidebar: [sidebar, setSidebar],
+    sidebar: [sidebar],
   } = useAppContext();
 
   useEffect(() => {}, [option]);

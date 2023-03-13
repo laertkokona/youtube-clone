@@ -1,7 +1,6 @@
 import {
   Avatar,
   Box,
-  Divider,
   IconButton,
   InputAdornment,
   InputBase,
@@ -19,7 +18,6 @@ import VideoCallOutlinedIcon from "@mui/icons-material/VideoCallOutlined";
 import AppsIcon from "@mui/icons-material/Apps";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
-import PersonIcon from "@mui/icons-material/Person";
 import ClearIcon from "@mui/icons-material/Clear";
 import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
 import SmartDisplayOutlinedIcon from '@mui/icons-material/SmartDisplayOutlined';
